@@ -4,7 +4,6 @@
     .curriculum {
         max-width: 1000px;
         min-height: 1000px;
-        background-color: white;
         box-shadow: 0 35px 55px rgba(0, 0, 0, 0.9);
         .left-side {
             background-color: rgb(49, 31, 67);
@@ -32,6 +31,10 @@
                 }
                 hr {
                     opacity: 0.5;
+                }
+
+                img {
+                    box-shadow: 0px 0px 70px 0px rgba(0, 0, 0, 0.9);
                 }
             }
 
@@ -71,18 +74,28 @@
             #experience {
                 text-align: justify;
 
-                .year-company {
-                    h6 {
-                        color: hsla(162, 100%, 40%, 0.841);
+                .responsive-screen {
+                    #tempo-empresa-trieste {
+                        width: 20.9%;
                     }
-                }
+                    #mundo-da-mente {
+                        width: 226%;
+                    }
+                    #tempo-empresa {
+                        width: 125px;
+                    }
+                    #tempo-empresa-unip {
+                        width: 25%;
 
-                #engineer-jr {
-                    width: 43%;
-                }
-
-                #stag {
-                    width: 55%;
+                        h6 {
+                            font-size: smaller;
+                        }
+                    }
+                    .year-company {
+                        h6 {
+                            color: rgba(142, 74, 211, 0.721);
+                        }
+                    }
                 }
             }
 
@@ -90,7 +103,6 @@
                 img {
                     width: 40px;
                     height: 40px;
-                    filter: grayscale(100%);
                 }
             }
 
@@ -125,8 +137,6 @@
 
     img {
         width: 200px;
-        height: 200px;
-        box-shadow: 0px 0px 70px 0px rgba(0, 0, 0, 0.9);
     }
 
     section {
@@ -136,7 +146,7 @@
         }
     }
 }
-@media (max-width: 800px) {
+@media (max-width: 1024px) {
     .main {
         .curriculum {
             margin: 3% !important;
