@@ -1,6 +1,5 @@
 .main {
     background: rgb(108, 76, 126);
-    min-height: 100vh;
     .curriculum {
         max-width: 1000px;
         min-height: 1000px;
@@ -81,11 +80,15 @@
                     #mundo-da-mente {
                         width: 226%;
                     }
-                    #tempo-empresa {
-                        width: 125px;
+                    #tempo-empresa-mapple {
+                        width: 22.2%;
+
+                        h6 {
+                            font-size: smaller;
+                        }
                     }
                     #tempo-empresa-unip {
-                        width: 25%;
+                        width: 22%;
 
                         h6 {
                             font-size: smaller;
@@ -106,22 +109,22 @@
                 }
             }
 
-            #certifications {
-                .certificate {
-                    .certificate-itens {
-                        width: 201px;
-                        text-align: center;
+            // #certifications {
+            //     .certificate {
+            //         .certificate-itens {
+            //             width: 201px;
+            //             text-align: center;
 
-                        img {
-                            max-width: 100%;
-                        }
-                    }
-                    img {
-                        width: 200px;
-                        height: 100px;
-                    }
-                }
-            }
+            //             img {
+            //                 max-width: 100%;
+            //             }
+            //         }
+            //         img {
+            //             width: 200px;
+            //             height: 100px;
+            //         }
+            //     }
+            // }
         }
     }
 
@@ -165,6 +168,12 @@
                 #experience {
                     .responsive-screen {
                         flex-direction: column;
+
+                        #tempo-empresa-unip,
+                        #tempo-empresa-trieste,
+                        #tempo-empresa-mapple {
+                            width: 100%;
+                        }
                     }
 
                     .fw-bolder {
