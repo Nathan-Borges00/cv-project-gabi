@@ -50,13 +50,22 @@
                     escola bilíngue canadense, evidenciam meu comprometimento em auxiliar na educação e no desenvolvimento de crianças. Durante meu
                     tempo na escola, atuei como um auxiliar pedagógico, ajudando a aprimorar a qualidade do ensino através da organização de aulas,
                     criação de estratégias para melhorar a dinâmica em sala e acompanhamento personalizado de alunos com dificuldades de interação
-                    social e/ou pedagógica, utilizando o método ABA. Além disso, elaborei e apliquei atividades para ajudar esses alunos a desenvolver
-                    habilidades necessárias para o aprendizado. Atualmente, também atuo como estagiária em uma clínica, elaborando relatórios e
-                    realizando psicodiagnósticos interventivos para auxiliar meus clientes em suas necessidades psicológicas. Ademais, colaboro na
-                    instituição de moradia assistida (TRIESTE), fornecendo assistência personalizada aos moradores e elaborando relatórios para um
-                    melhor entendimento das pessoas atendidas e uma melhor prestação de serviço especializado. Buscando sempre novos desafios e
-                    oportunidades de crescimento pessoal e profissional, mantenho-me constantemente atualizado e aprendendo novas habilidades.
+                    social e/ou pedagógica, utilizando o método ABA.
+                    <button (click)="showMore = !showMore" class="rounded-pill">
+                        <i class="bi bi-three-dots ms-1"></i> <span class="me-1"> {{ !showMore ? 'mais' : 'menos' }}</span>
+                    </button>
                 </p>
+
+                <div *ngIf="showMore">
+                    <p>
+                        Além disso, elaborei e apliquei atividades para ajudar esses alunos a desenvolver habilidades necessárias para o aprendizado.
+                        Atualmente, também atuo como estagiária em uma clínica, elaborando relatórios e realizando psicodiagnósticos interventivos
+                        para auxiliar meus clientes em suas necessidades psicológicas. Ademais, colaboro na instituição de moradia assistida
+                        (TRIESTE), fornecendo assistência personalizada aos moradores e elaborando relatórios para um melhor entendimento das pessoas
+                        atendidas e uma melhor prestação de serviço especializado. Buscando sempre novos desafios e oportunidades de crescimento
+                        pessoal e profissional, mantenho-me constantemente atualizado e aprendendo novas habilidades.
+                    </p>
+                </div>
 
                 <hr class="mx-4" />
             </section>
@@ -113,13 +122,13 @@
                     <div class="flex flex-column mb-3">
                         <h5>Redatora do site</h5>
                         <p>
-                            O site mundodamente.com.br é um blog que apresenta uma variedade de conteúdos sobre temas diversos. Fundado em 2020, o
-                            site busca compartilhar informações relevantes sobre assuntos que vão desde curiosidades científicas até dicas de saúde e
-                            bem-estar, passando por tecnologia, educação, cultura e entretenimento. Com uma abordagem descontraída e acessível, o blog
-                            se propõe a tornar o conhecimento mais acessível e interessante para um público amplo, oferecendo textos bem escritos,
-                            imagens atrativas e informações atualizadas. O site é atualizado com frequência e conta com uma equipe de autores
-                            especializados em diferentes áreas do conhecimento, garantindo assim uma ampla diversidade de conteúdos de qualidade para
-                            os seus leitores.
+                            O site <a href="https://mundodamente.com.br/" target="_blank">mundodamente.com.br</a> é um blog que apresenta uma
+                            variedade de conteúdos sobre temas diversos. Fundado em 2020, o site busca compartilhar informações relevantes sobre
+                            assuntos que vão desde curiosidades científicas até dicas de saúde e bem-estar, passando por tecnologia, educação, cultura
+                            e entretenimento. Com uma abordagem descontraída e acessível, o blog se propõe a tornar o conhecimento mais acessível e
+                            interessante para um público amplo, oferecendo textos bem escritos, imagens atrativas e informações atualizadas. O site é
+                            atualizado com frequência e conta com uma equipe de autores especializados em diferentes áreas do conhecimento, garantindo
+                            assim uma ampla diversidade de conteúdos de qualidade para os seus leitores.
                         </p>
                     </div>
                 </div>

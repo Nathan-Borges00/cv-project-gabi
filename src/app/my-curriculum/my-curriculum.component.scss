@@ -39,6 +39,12 @@
 
             #profile {
                 text-align: justify;
+
+                button {
+                    all: unset;
+                    cursor: pointer;
+                    background-color: rgba(171, 107, 235, 0.215);
+                }
             }
 
             #social-midias {
@@ -98,6 +104,10 @@
                         h6 {
                             color: rgba(142, 74, 211, 0.721);
                         }
+                    }
+
+                    a {
+                        color: inherit;
                     }
                 }
             }

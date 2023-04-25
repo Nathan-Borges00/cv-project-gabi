@@ -10,6 +10,8 @@ import { CertificateService } from './services/certificate.service';
 export class MyCurriculumComponent implements OnInit {
     certificates: Certificate[] = [];
 
+    showMore = false;
+
     constructor(private certificateService: CertificateService) {}
 
     ngOnInit() {
