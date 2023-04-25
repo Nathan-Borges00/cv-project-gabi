@@ -167,7 +167,7 @@
             .right-side {
                 #experience {
                     .responsive-screen {
-                        flex-direction: column;
+                        flex-wrap: wrap;
 
                         #tempo-empresa-unip,
                         #tempo-empresa-trieste,
