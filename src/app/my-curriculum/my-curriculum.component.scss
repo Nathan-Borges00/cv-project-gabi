@@ -81,21 +81,22 @@
 
                 .responsive-screen {
                     #tempo-empresa-trieste {
-                        width: 20.9%;
+                        width: 21.5%;
                     }
                     #mundo-da-mente {
-                        width: 226%;
+                        width: 30%;
+                    }
+                    .w-fit-content {
+                        width: fit-content;
                     }
                     #tempo-empresa-mapple {
-                        width: 22.2%;
-
+                        width: 23%;
                         h6 {
                             font-size: smaller;
                         }
                     }
                     #tempo-empresa-unip {
-                        width: 22%;
-
+                        width: 23%;
                         h6 {
                             font-size: smaller;
                         }
@@ -155,7 +156,7 @@
     section {
         p,
         a {
-            font-size: small;
+            font-size: 16px;
         }
     }
 }
@@ -215,36 +216,6 @@
         section {
             p {
                 font-size: large;
-            }
-        }
-    }
-}
-
-@media (max-width: 531px) {
-    .main {
-        section {
-            p {
-                font-size: medium;
-            }
-        }
-    }
-}
-
-@media (max-width: 478px) {
-    .main {
-        section {
-            p {
-                font-size: smaller;
-            }
-        }
-    }
-}
-
-@media (max-width: 407px) {
-    .main {
-        section {
-            p {
-                font-size: x-small;
             }
         }
     }
