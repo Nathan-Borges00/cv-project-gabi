@@ -1,18 +1,23 @@
 .main {
-    background: rgb(108, 76, 126);
+    background: #2e1e45;
     .curriculum {
         max-width: 1000px;
         min-height: 1000px;
         box-shadow: 0 35px 55px rgba(0, 0, 0, 0.9);
         .left-side {
-            background-color: rgb(49, 31, 67);
+            background-color: #612a52;
             flex-basis: 30%;
 
+            h5 {
+                color: #ccbca1;
+                font-weight: bold;
+            }
+
             .progress {
-                background-color: rgba(103, 65, 141, 0.516);
+                background-color: #964881b4;
             }
             .progress-bar {
-                background-color: rgb(171, 107, 235) !important;
+                background-color: #ff695c !important;
             }
 
             #title {
@@ -21,11 +26,11 @@
                     color: whitesmoke;
                 }
                 h4 {
-                    color: rgba(171, 107, 235, 0.67);
+                    color: #ea7c9b;
                     font-weight: bold;
                 }
                 h3 {
-                    color: rgb(171, 107, 235);
+                    color: #ff695c;
                     font-weight: bold;
                 }
                 hr {
@@ -55,7 +60,7 @@
 
             #education {
                 h6 {
-                    color: rgb(171, 107, 235);
+                    color: #ff695c;
                     font-weight: bold;
                 }
             }
@@ -69,15 +74,20 @@
             }
 
             .progress {
-                background-color: rgba(56, 50, 50, 0.111);
+                background-color: #9648811d;
             }
 
             .progress-bar {
-                background-color: rgb(171, 107, 235) !important;
+                background-color: #ff695c !important;
             }
 
             #experience {
                 text-align: justify;
+
+                h5 {
+                    color: #e52b1b;
+                    font-weight: bold;
+                }
 
                 .responsive-screen {
                     #tempo-empresa-trieste {
@@ -103,7 +113,7 @@
                     }
                     .year-company {
                         h6 {
-                            color: rgba(142, 74, 211, 0.721);
+                            color: #ba3259;
                         }
                     }
 
@@ -139,14 +149,9 @@
         }
     }
 
-    h5 {
-        color: rgb(143, 56, 230);
-        font-weight: bold;
-    }
-
     i,
     svg {
-        color: rgb(171, 107, 235);
+        color: #ff695c;
     }
 
     img {
@@ -182,7 +187,8 @@
 
                         #tempo-empresa-unip,
                         #tempo-empresa-trieste,
-                        #tempo-empresa-mapple {
+                        #tempo-empresa-mapple,
+                        #mundo-da-mente {
                             width: 100%;
                         }
                     }
